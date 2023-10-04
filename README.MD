@@ -1,5 +1,6 @@
 # DevOps for simple startup project
-
+- Deploy .NET App in a few steps using your Domain, VPS and GitHub actions
+- Create and maintain the SSL Cerficate automagically
 
 ## Prerequisites:
 - Ubuntu 20.4 VPS
@@ -24,7 +25,6 @@
 
 - Open Domain Provider config page for a domain and change these to the ones provided by Cloudflare:
 ![OVH Configuration of the DNS Nameservers](/docs/setup-dns-ovh.jpg)
-...
 
 ### Docker Hub
 - Create a new account or use existing
