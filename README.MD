@@ -69,3 +69,4 @@
 - Adjust the Docker Hub Image for projects
 ![Docker Hub image adjustment](/docs/adjust-dockerhub-image-name.jpg)
 - Commit all the changes and wait for the Action Pipeline to Run:
+![Queued Deployment Action](/docs/queued-deployment-action.jpg)
