@@ -1,0 +1,16 @@
+version: "3.4"
+
+services:
+  worker:
+    image: outloud/worker:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=$ConnectionStrings__DefaultConnection
+  web:
+    image: outloud/web:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=$ConnectionStrings__DefaultConnection
+      - PORT=80
+      - VIRTUAL_HOST=$DOMAIN
+      - LETSENCRYPT_HOST=$DOMAIN
