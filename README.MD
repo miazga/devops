@@ -1,4 +1,4 @@
-# DevOps for simple startup project
+# DevOps for Startup project
 - Deploy .NET App in a few steps using your Domain, VPS and GitHub actions
 - Create and maintain the SSL Cerficate automagically
 
